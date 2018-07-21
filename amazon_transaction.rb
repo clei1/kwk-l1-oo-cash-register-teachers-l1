@@ -14,4 +14,8 @@ class AmazonTransaction
     @items.push(t)
   end
 
+  def apply_discount
+    @total *= (1 - @discount)
+  end
+
 end
