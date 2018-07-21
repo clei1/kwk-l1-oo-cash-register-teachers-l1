@@ -11,6 +11,7 @@ class AmazonTransaction
 
   def add_item(t,p)
     @total += p
+    @items.push(t)
   end
 
 end
