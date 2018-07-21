@@ -22,4 +22,8 @@ class AmazonTransaction
     return "After the discount, the total comes to $#{@total.to_i}."
   end
 
+  def items
+    return @items
+  end
+
 end
