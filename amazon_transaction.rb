@@ -9,8 +9,8 @@ class AmazonTransaction
     @discount = d
   end
 
-  def add_item(t,p,q = 1)
-    @total += p
+  def add_item(t,p, q = 1)
+    @total += q
     @items.push(t)
   end
 
