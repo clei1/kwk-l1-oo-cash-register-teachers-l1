@@ -11,7 +11,7 @@ class AmazonTransaction
 
   def add_item(t,p, q = 1)
     @total += (q * p)
-    q.times do  
+    q.times do
       @items.push(t)
     end
   end
