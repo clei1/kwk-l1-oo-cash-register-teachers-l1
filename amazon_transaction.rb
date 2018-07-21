@@ -11,7 +11,9 @@ class AmazonTransaction
 
   def add_item(t,p, q = 1)
     @total += (q * p)
-    @items.push(t)
+    q.times do  
+      @items.push(t)
+    end
   end
 
   def apply_discount
